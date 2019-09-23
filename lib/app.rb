@@ -1,3 +1,3 @@
 def descending_order(num)
-  num.digits.sort
+  num.digits.sort.reverse
 end
