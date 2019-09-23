@@ -8,8 +8,10 @@ describe 'descending_order' do
     expect(ordered_1).to eq (87521)
   end
 
-  it "returns the origional number if only one number is entered" do
+  it "returns the original number if only one number is entered" do
     edge_case1 = descending_order(1)
+    edge_case2 = descending_order(0)
     expect(edge_case1).to eq (1)
+    expect(edge_case2).to eq (0)
   end
 end
