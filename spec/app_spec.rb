@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-require_relative 'lib/app.rb'
+require_relative '../lib/app.rb'
 
 describe 'decending_order' do
   it "takes any integer and returns it in decending order" do
